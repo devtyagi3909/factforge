@@ -12,7 +12,7 @@ This repository implements an evidence-first Fact Knowledge Layer built for IPO 
 
 ---
 
-## Video Demo
+
 
 [![Demo Video](https://img.shields.io/badge/Demo_Video-Google_Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/drive/folders/1PSGYgmFH9ONwjq4cp5amRE7ZmBKGYDCf?usp=sharing)
 

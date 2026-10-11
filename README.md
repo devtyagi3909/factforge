@@ -10,7 +10,6 @@ This repository implements an evidence-first Fact Knowledge Layer built for IPO 
   <img src="assets/terminal_demo.svg" alt="Fact Knowledge Layer Terminal Pipeline Demo" width="100%" />
 </p>
 
----
 
 
 

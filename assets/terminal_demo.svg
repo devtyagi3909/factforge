@@ -17,7 +17,7 @@
     <circle cx="36" cy="32" r="6" fill="#ff5f56" />
     <circle cx="56" cy="32" r="6" fill="#ffbd2e" />
     <circle cx="76" cy="32" r="6" fill="#27c93f" />
-    <text x="440" y="36" fill="#8b949e" font-size="12" font-weight="600" text-anchor="middle">devtyagi@macbook: ~/superjoin-fact-layer</text>
+    <text x="440" y="36" fill="#8b949e" font-size="12" font-weight="600" text-anchor="middle">devtyagi@macbook: ~/factforge</text>
     
     <g transform="translate(35, 75)">
         <text x="0" y="0" fill="#3fb950" font-size="13" font-weight="bold">➜</text>

@@ -7,7 +7,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-st.set_page_config(page_title="Fact Layer", page_icon=None, layout="wide")
+st.set_page_config(page_title="FactForge · Grounded Intelligence Layer", page_icon=None, layout="wide")
 API_URL = "http://localhost:8000"
 
 st.markdown(
@@ -258,8 +258,8 @@ def render_graph(graph):
 
 
 st.markdown(
-    '<div class="hero"><div class="eyebrow">Evidence-first document intelligence</div>'
-    '<h1>Fact Knowledge Layer</h1>'
+    '<div class="hero"><div class="eyebrow">FactForge · Deterministic Document Intelligence</div>'
+    '<h1>FactForge</h1>'
     '<p>Extract grounded claims, compare them across documents, and review uncertainty without losing the source.</p></div>',
     unsafe_allow_html=True,
 )

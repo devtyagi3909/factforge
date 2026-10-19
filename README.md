@@ -1,4 +1,6 @@
-# Superjoin Fact Knowledge Layer
+# FactForge
+
+> Deterministic fact extraction, verbatim source grounding, and cross-document contradiction detection engine for financial filings.
 
 Financial document intelligence is straightforward until you have to reconcile two conflicting numbers across 100-page prospectus and annual report filings at scale.
 
@@ -129,8 +131,8 @@ Requires **Python 3.10+**.
 
 ### 1. Clone & Environment Setup
 ```bash
-git clone https://github.com/devtyagi3909/superjoin-fact-layer.git
-cd superjoin-fact-layer
+git clone https://github.com/devtyagi3909/factforge.git
+cd factforge
 
 python3 -m venv venv
 source venv/bin/activate

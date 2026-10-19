@@ -1,7 +1,7 @@
 # Evaluation & Benchmark Report · Fact Knowledge Layer
 
 ## Overview
-This report documents quantitative evaluation results for the **Superjoin Fact Knowledge Layer**, comparing baseline naive RAG (pairwise prompt comparison) against our **Inverted Lexical Index + Deterministic Canonicalization + Verbatim Grounding** architecture.
+This report documents quantitative evaluation results for the **FactForge**, comparing baseline naive RAG (pairwise prompt comparison) against our **Inverted Lexical Index + Deterministic Canonicalization + Verbatim Grounding** architecture.
 
 Evaluations were performed against the verified ground-truth dataset in [`evals/labeled_eval_dataset.json`](./evals/labeled_eval_dataset.json) covering financial disclosures (10-K, annual reports, earnings calls).
 

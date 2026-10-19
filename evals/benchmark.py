@@ -1,5 +1,5 @@
 """
-Superjoin Fact Knowledge Layer - Evaluation & Guardrail Harness
+FactForge Engine - Evaluation & Guardrail Harness
 Measures retrieval complexity, unit canonicalization precision, and grounding rates.
 """
 
@@ -9,7 +9,7 @@ from typing import Dict, List, Any
 
 def run_evals():
     print("=" * 70)
-    print("  SUPERJOIN FACT KNOWLEDGE LAYER · PRODUCTION EVALUATION HARNESS")
+    print("  FACTFORGE · DETERMINISTIC GROUNDING HARNESS · PRODUCTION EVALUATION HARNESS")
     print("=" * 70)
     
     # 1. Complexity Comparison Benchmark

@@ -15,7 +15,7 @@ import uvicorn
 
 from core.parser import classify_provider_error, fact_layer
 
-app = FastAPI(title="Fact Knowledge Layer API")
+app = FastAPI(title="FactForge API - Deterministic Grounded Fact Layer")
 _jobs: dict[str, dict] = {}
 _jobs_lock = threading.RLock()
 _source_files: dict[str, str] = {}

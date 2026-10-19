@@ -1,5 +1,5 @@
 """
-Automated Evaluation Harness for Superjoin Fact Knowledge Layer
+Automated Evaluation Harness for FactForge Engine
 Measures:
 1. Fact Extraction Precision & Recall against Labeled Ground Truth
 2. Verbatim Substring Grounding Rate (Hallucination Rejection)
@@ -38,7 +38,7 @@ def run_full_eval_suite():
         data = json.load(f)
 
     print("=" * 72)
-    print("  SUPERJOIN FACT LAYER · PRODUCTION EVALUATION HARNESS")
+    print("  FACTFORGE HARNESS · PRODUCTION EVALUATION HARNESS")
     print("=" * 72)
 
     total_gt_facts = 0

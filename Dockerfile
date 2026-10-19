@@ -1,4 +1,4 @@
-# Multi-stage Dockerfile for Superjoin Fact Knowledge Layer
+# Multi-stage Dockerfile for FactForge Grounded Fact Layer
 FROM python:3.11-slim as base
 
 WORKDIR /app

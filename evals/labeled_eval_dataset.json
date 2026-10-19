@@ -1,0 +1,102 @@
+[
+  {
+    "doc_id": "doc_zomato_fy24_q4",
+    "text": "Gross Order Value (GOV) across our B2C businesses grew 51% YoY to INR 8,439 crore in Q4FY24. Adjusted Revenue stood at INR 3,797 crore, representing a 73% YoY growth. Adjusted EBITDA turned positive to INR 194 crore compared to an EBITDA loss of INR (175) crore in Q4FY23. Net Profit (PAT) reached INR 175 crore compared to a loss of INR (188) crore.",
+    "ground_truth_facts": [
+      {
+        "metric": "Gross Order Value",
+        "value": 8439.0,
+        "unit": "INR crore",
+        "verbatim": "INR 8,439 crore",
+        "is_grounded": true
+      },
+      {
+        "metric": "Adjusted Revenue",
+        "value": 3797.0,
+        "unit": "INR crore",
+        "verbatim": "INR 3,797 crore",
+        "is_grounded": true
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "value": 194.0,
+        "unit": "INR crore",
+        "verbatim": "INR 194 crore",
+        "is_grounded": true
+      },
+      {
+        "metric": "Net Profit (PAT)",
+        "value": 175.0,
+        "unit": "INR crore",
+        "verbatim": "INR 175 crore",
+        "is_grounded": true
+      }
+    ],
+    "negative_samples": [
+      {
+        "metric": "Gross Margin",
+        "value": 42.5,
+        "unit": "%",
+        "verbatim": "Gross Margin of 42.5%",
+        "is_grounded": false,
+        "reason": "hallucinated - not in source text"
+      }
+    ]
+  },
+  {
+    "doc_id": "doc_delhivery_fy24_ar",
+    "text": "Express Parcel revenue for FY24 grew 12% YoY to INR 5,077 Cr from INR 4,550 Cr in FY23. Part Truckload (PTL) freight volume was 1,429K tonnes compared to 1.13 Mn tonnes in FY23. Total revenue from operations stood at INR 8,142 Cr (INR 81,415 Mn) with adjusted EBITDA of INR 127 Cr.",
+    "ground_truth_facts": [
+      {
+        "metric": "Express Parcel Revenue",
+        "value": 5077.0,
+        "unit": "INR crore",
+        "verbatim": "INR 5,077 Cr",
+        "is_grounded": true
+      },
+      {
+        "metric": "PTL Freight Volume",
+        "value": 1429.0,
+        "unit": "K tonnes",
+        "verbatim": "1,429K tonnes",
+        "is_grounded": true
+      },
+      {
+        "metric": "Total Revenue",
+        "value": 8142.0,
+        "unit": "INR crore",
+        "verbatim": "INR 8,142 Cr (INR 81,415 Mn)",
+        "is_grounded": true
+      }
+    ],
+    "unit_conversion_equivalences": [
+      {
+        "raw_a": "INR 8,142 Cr",
+        "raw_b": "INR 81,415 Mn",
+        "canonical_val": 81420000000.0,
+        "tolerance": 0.001,
+        "status": "equivalent"
+      },
+      {
+        "raw_a": "1,429K tonnes",
+        "raw_b": "1.429 Mn tonnes",
+        "canonical_val": 1429000.0,
+        "tolerance": 0.0,
+        "status": "equivalent"
+      }
+    ]
+  },
+  {
+    "doc_id": "doc_spoton_dispute",
+    "text": "Total active pin codes served stood at 23,113 (excluding Spoton acquired pin codes). Earlier filings reported 23,613 active pin codes across Pan-India delivery network.",
+    "ground_truth_contradictions": [
+      {
+        "metric": "Active Pin Codes",
+        "source_a": "23,113 (excluding Spoton)",
+        "source_b": "23,613 active pin codes",
+        "classification": "true_contradiction",
+        "delta": 500
+      }
+    ]
+  }
+]
